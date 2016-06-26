@@ -18,7 +18,7 @@ transformName = result[0]
 
 instanceGroupName = cmds.group( empty=True, name=transformName + '_instance_grp#')
 
-for i in range(0, 50):
+for i in range(0, 100):
     instanceResult = cmds.instance( transformName, name=transformName + '_instance#')
     print 'instanceResult' + str(instanceResult)
     x = random.uniform(-10, 10)
