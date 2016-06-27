@@ -5,7 +5,7 @@ node {
 
 stage 'PushToProd'
 node {
-	git url: "git@github.com:NathanBWaters/randomSpheres.git"
+	git url: "https://github.com/NathanBWaters/randomSpheres.git"
 	echo "Starting PushToProd"
 	sh 'printenv'
 	sh 'env'
