@@ -6,5 +6,7 @@ node {
 stage 'PushToProd'
 node {
 	echo "Starting PushToProd"
+	sh 'Learning the syntax of Groovy...'
 	sh 'echo $GIT_COMMIT'
+	sh 'env'
 }
