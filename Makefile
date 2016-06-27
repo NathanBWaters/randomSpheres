@@ -2,4 +2,4 @@ test:
 	echo "Tested"
 
 push:
-	echo "Pushed"
+	echo "Pushed  "
